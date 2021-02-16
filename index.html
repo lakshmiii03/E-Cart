@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>E-Cart</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+ <header>
+  <nav>
+   <div class="logo">
+    <img src="/logo.png">
+   </div>
+   <div class="links">
+    <ul>
+     <li class="sub-menu">
+      <img src="/cart.png">
+      <div id="cart">
+       <table id="listCart">
+        <thead>
+         <tr>
+          <th>Image</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th> </th>
+         </tr>
+        </thead>
+        <tbody></tbody>
+       </table>
+       <a href="#" id="empty-cart">Empty Cart</a>
+      </div>
+     </li>
+    </ul>
+   </div>
+  </nav>
+ </header>
+
+ <div id="list-courses">
+  <h1 style="color: azure; text-align: center;"  class="header-courses">Our Products</h1>
+
+  <div class="courses-container">
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/books.jpg" >
+     <div class="info-card">
+      <h4>Story Books</h4>
+      <p class="rating"></p>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="1">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/bottle.jpg" >
+     <div class="info-card">
+      <h4>Water Bottles</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="2">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/ukulele.jpg" >
+     <div class="info-card">
+      <h4>Ukulele</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="3">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/fidget-spinners.jpg" >
+     <div class="info-card">
+      <h4>Fidget Spinner</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="4">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/pouch.jpg" >
+     <div class="info-card">
+      <h4>Pencil Pouches</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="5">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/mouse.jpg" >
+     <div class="info-card">
+      <h4>Wireless Computer Mouse</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="6">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/punching bag.jpg" >
+     <div class="info-card">
+      <h4>Punching Bags</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="7">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+   <div class="course-item">
+    <div class="course-card">
+     <img src="/bag.jpg" >
+     <div class="info-card">
+      <h4>Backpacks</h4>
+      <p class="rating">
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+       <i class="fa fa-star"></i>
+      </p>
+      <p>
+       <span class="price">Rs.2,000/-</span>
+       <span class="discounted">Rs.1,850</span>
+      </p>
+      <a href="#" class="add-cart" data-id="8">Add to Cart</a>
+     </div>
+    </div>
+   </div>
+   <!-- Course item ends here -->
+  </div>
+ </div>
+ <script src="/script.js"></script>
+</body>
+
+</html>
